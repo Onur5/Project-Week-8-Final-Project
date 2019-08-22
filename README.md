@@ -55,6 +55,11 @@ The choosen dataset for this project ([link](https://www.kaggle.com/datamunge/si
 
 - Format: 28x28 pixel image, with grayscale values (0-255)
 
+
+Example of the original pictures before the grayscaling and resizing:
+
+  ![Dataset 1 - Example for pictures](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Dataset%201%2C%20example%20of%20pictures.png)
+
 The second dataset is provided by the Kaggle community ([link](https://www.kaggle.com/datamunge/sign-language-mnist) includes drop-in replacements, which are more challenging for computer vision and original for real-world applications.
 
 The dataset is in available as a CSV file with labels and pixel values in single rows.
@@ -74,6 +79,11 @@ The second dataset is provide by the kaggle community ([link](https://www.kaggle
       --> After the preperation of the second dataset and the merge of the datasets there was total of more than 44k picture data to
         analyse
         
+        
+ Example of the original pictures before the grayscaling and resizing:
+ 
+  ![Dataset 2 - Example for pictures](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Dataset%202%2C%20example%20of%20pictures.png)
+ 
 <a name="cleaning"></a>
 
 ## Cleaning
@@ -100,8 +110,12 @@ The major adjustment steps on the dataset are:
   3. Standardize the color by dividing each value by 255
   
   
-  ![Dataset 1 - Distribution](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+ Distribution of Dataset 1:
+ 
+   ![Dataset 1 - Distribution](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Distribution%20of%20first%20dataset.png)
   
+
+ ----
 ### The second Dataset (preperation for the additional models)
 
 As the second dataset was provided in the form of actual pictures the preperation was more complicated. 
@@ -131,7 +145,6 @@ In total three different models were created.
 
 In the following a small explanaition of the training of the models and their accuracy is presented:
 
-      - The specific kernels and pool-sizes can be viewed in the attached slides and readme-file.
 
 ### The first Model
 This model was trained with the first dataset.
@@ -151,9 +164,14 @@ The choosen hyperparameter are:
   
   - A test-size of 30% of the total dataset.
   
- The general perforemance over each epoch can be seen in the attached slides and readme-file.
  
  However the accruacy of the model on the 7k test data lies at about 88%.
+ 
+ 
+ Detailed Function and Parameter of Model 1:
+ 
+    ![Model 1 - Functions and Parameter](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%20with%20function%20and%20parameter.png)
+ 
  
  ### The second Model
  This model was trained with the merged dataset (44k different pictures).
@@ -172,9 +190,18 @@ The choosen hyperparameter are:
   
   - A test-size of 30% of the total dataset.
  
- The general perforemance over each epoch can be seen in the attached slides and readme-file.
  
  However the accruacy of the model on the 7k test data lies at about 56%.
+ 
+ 
+  Detailed Function and Parameter of Model 2:
+ 
+    ![Model 2 - Functions and Parameter](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%202%2C%20with%20function%20and%20parameter.png)
+    
+    
+  Perforemance of Model 2 over all Epochs:
+  
+  ![Model 2 - Perforemance over all Epochs](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%202%2C%20perforemance.png)
  
  ### The third Model
  This model was trained with the merged dataset (44k different pictures).
@@ -195,10 +222,20 @@ The choosen hyperparameter are:
   
   - A test-size of 30% of the total dataset.
  
- The general perforemance over each epoch can be seen in the attached slides and readme-file.
  
  However the accruacy of the model on the 7k test data lies at about 89%.
 
+  Detailed Function and Parameter of Model 3:
+ 
+    ![Model 3 - Functions and Parameter](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%20with%20function%20and%20parameter.png)
+    
+    
+  Perforemance of Model 3 over all Epochs:
+  
+  ![Model 3 - Perforemance over all Epochs](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%203%2C%20perforemance.png)
+  
+  
+  
 <a name="conclusion"></a>
 
 ## Conclusion
