@@ -165,12 +165,13 @@ The choosen hyperparameter are:
   - A test-size of 30% of the total dataset.
   
  
- However the accruacy of the model on the 7k test data lies at about 88%.
- 
  
  Detailed Function and Parameter of Model 1:
  
-    ![Model 1 - Functions and Parameter](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%20with%20function%20and%20parameter.png)
+   ![Model 1 - Functions and Parameter](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%20with%20function%20and%20parameter.png)
+ 
+    
+     However the accruacy of the model on the 7k test data lies at about 88%.
  
  
  ### The second Model
@@ -191,9 +192,6 @@ The choosen hyperparameter are:
   - A test-size of 30% of the total dataset.
  
  
- However the accruacy of the model on the 7k test data lies at about 56%.
- 
- 
   Detailed Function and Parameter of Model 2:
  
     ![Model 2 - Functions and Parameter](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%202%2C%20with%20function%20and%20parameter.png)
@@ -202,6 +200,8 @@ The choosen hyperparameter are:
   Perforemance of Model 2 over all Epochs:
   
   ![Model 2 - Perforemance over all Epochs](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%202%2C%20perforemance.png)
+  
+    However the accruacy of the model on the 7k test data lies at about 56%.
  
  ### The third Model
  This model was trained with the merged dataset (44k different pictures).
@@ -214,7 +214,9 @@ The choosen hyperparameter are:
     - Smaller size of max-pooling layers
     
     - More density layers
-  
+ 
+ --> One of the most important changes in model 3 was to include a balanced split into test and train data, so that the learning is more accurate
+ 
  The chosen hyperparameter are as follows:
    - 20 Epochs
   
@@ -222,8 +224,6 @@ The choosen hyperparameter are:
   
   - A test-size of 30% of the total dataset.
  
- 
- However the accruacy of the model on the 7k test data lies at about 89%.
 
   Detailed Function and Parameter of Model 3:
  
@@ -235,6 +235,8 @@ The choosen hyperparameter are:
   ![Model 3 - Perforemance over all Epochs](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%203%2C%20perforemance.png)
   
   
+       However the accruacy of the model on the 7k test data lies at about 89%.
+       
   
 <a name="conclusion"></a>
 
