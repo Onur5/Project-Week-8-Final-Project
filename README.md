@@ -194,7 +194,7 @@ The choosen hyperparameter are:
  
   Detailed Function and Parameter of Model 2:
  
-    ![Model 2 - Functions and Parameter](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%202%2C%20with%20function%20and%20parameter.png)
+  ![Model 2 - Functions and Parameter](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%202%2C%20with%20function%20and%20parameter.png)
     
     
   Perforemance of Model 2 over all Epochs:
@@ -227,7 +227,7 @@ The choosen hyperparameter are:
 
   Detailed Function and Parameter of Model 3:
  
-    ![Model 3 - Functions and Parameter](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%20with%20function%20and%20parameter.png)
+  ![Model 3 - Functions and Parameter](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/Model%20with%20function%20and%20parameter.png)
     
     
   Perforemance of Model 3 over all Epochs:
@@ -295,7 +295,7 @@ One reason for the bottlenecks of the model is the underlying dataset used for t
 <a name="organization"></a>
 
 ## Organization
-The organization was mainly done on a [handwritten calendar](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/d7e6a758-0dfd-451b-827f-e30f8b3a0152.png)) and later adopted to ([Trello](https://trello.com/b/COrcTYwq/final-project))
+The organization was mainly done on a [handwritten calendar](https://github.com/Onur5/Project-Week-8-Final-Project/blob/master/Bin/d7e6a758-0dfd-451b-827f-e30f8b3a0152.png) and later adopted to ([Trello](https://trello.com/b/COrcTYwq/final-project))
 
 
 <a name="links"></a>
