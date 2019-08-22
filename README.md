@@ -100,7 +100,7 @@ The major adjustment steps on the dataset are:
   3. Standardize the color by dividing each value by 255
   
   
-    --> A distribution of the dataset can be found in the readme file 
+  ![Dataset 1 - Distribution](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
   
 ### The second Dataset (preperation for the additional models)
 
