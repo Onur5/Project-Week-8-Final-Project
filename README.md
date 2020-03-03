@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
+# Reading Sign Language
 *[Onur Taskin]*
 
 *[Data Analytics June 2019]*
